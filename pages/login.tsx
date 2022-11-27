@@ -26,8 +26,9 @@ const Login = () => {
 
     return (
         <GuestLayout>
-                <Link href='login'>Login</Link>
-                <Link href='register'>Register</Link>
+                <Link href='/'>Home</Link>
+                <Link href='/login'>Login</Link>
+                <Link href='/register'>Register</Link>
                 <form onSubmit={submitForm}>
                     {/* Email Address */}
                     <div>
@@ -36,7 +37,6 @@ const Login = () => {
                             id="email"
                             type="email"
                             value={email}
-                            className="block mt-1 w-full"
                             onChange={event => setEmail(event.target.value)}
                             required
                             autoFocus
@@ -49,7 +49,6 @@ const Login = () => {
                             id="password"
                             type="password"
                             value={password}
-                            className="block mt-1 w-full"
                             onChange={event => setPassword(event.target.value)}
                             required
                             autoComplete="current-password"
@@ -59,7 +58,7 @@ const Login = () => {
                     <div className="flex items-center justify-end mt-4">
                         <Link
                             href="/forgot-password"
-                            className="underline text-sm text-gray-600 hover:text-gray-900">
+                        >
                             Forgot your password?
                         </Link>
                         <button className="ml-3">Login</button>

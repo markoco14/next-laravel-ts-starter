@@ -9,8 +9,6 @@ const Dashboard = () => {
             }
         >
             <Head>App Dashboard</Head>
-            <div>
-            </div>
         </AppLayout>
     );
 }
