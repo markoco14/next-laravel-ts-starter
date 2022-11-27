@@ -1,6 +1,32 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## What is this?
+
+A simple starter for NextJS with Laravel API. It comes with very stripped down register, login, and logout functionality. I removed things I didn't understand because I wanted to try out Next/Laravel with Typescript and I wanted to focus first on some test functionality for a project.
+
+I will improve this starter over time, and welcome advice/contributions from anyone :)
+
 ## Getting Started
+
+You need to set up the laravel backend. 
+
+```bash
+# Create the Laravel application...
+laravel new next-backend
+
+cd next-backend
+
+# Install Breeze and dependencies...
+composer require laravel/breeze --dev
+
+php artisan breeze:install api
+```
+
+install axios and swr
+
+```bash
+npm install axios swr
+```
 
 First, run the development server:
 
