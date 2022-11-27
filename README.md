@@ -8,7 +8,7 @@ I will improve this starter over time, and welcome advice/contributions from any
 
 ## Getting Started
 
-You need to set up the laravel backend. 
+You need to set up the laravel backend. Here https://laravel.com/docs/9.x/starter-kits#breeze-and-next for more details.
 
 ```bash
 # Create the Laravel application...
